@@ -1,4 +1,4 @@
-FROM owasp/modsecurity:v3-ubuntu-nginx
+FROM owasp/modsecurity-crs:v3.3.2-nginx
 MAINTAINER Andrea Menin (theMiddle)
 
 ENV PARANOIA=1
